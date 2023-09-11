@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* para buscar imagem sub-pastas use dois pontos deste jeito
+background-image: url('../'); */
+body{
+    background-image: url('../img/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0d6efd;
+    cursor: pointer;
+
+}
+
+/* form{
+   text-align: center;
+   margin-top: 15px;
+    font-size: 25px;
+}
+
+#btn{
+    color: #fff;
+    background-color: crimson;
+    font-size: 40px;
+    cursor: pointer;
+}
+#btn:hover{
+    color:crimson ;
+    background-color:#fff ;
+} */
+
+/* 3 modos de capturar para da estilo no css
+1 - Classe- 
+o . para chamar a classe
+    Letra Nome; Teste;
+2 - Id - 
+    Identificador único
+    uso a # para chamar 
+3 - tag    
+
+Margin- espaçamento entre containers
+Padding- espaçamento entre elementos dentro do containers
+
+
+*/
+nav{
+    margin-left: 325px;
+    margin-top: 25px;
+} 
+
+a{
+    text-decoration: none;
+    padding: 21px;
+    font-size: 22px;
+    color: white;
+}
+
+p{
+    color: rgb(212, 0, 240);
+}
+.cad{
+    color: blue;
+}
+#btn, .btn{
+    color: #fff;
+    background-color: crimson;
+    font-size: 20px;
+    cursor: pointer;
+}
+#btn:hover, .btn:hover{
+    color:crimson ;
+    background-color:#fff ;
+}
+.btn{
+    margin-left: 610px;
+}
+form{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+input[type=text],input[type=button]{
+    margin-top: 5px; 
+    margin-bottom: 15px;
+}
+
+label{
+    padding-top: 50px;
+    margin-top: 25px;
+    color: aquamarine;
+}
